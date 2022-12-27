@@ -1,0 +1,22 @@
+{
+  "name": "surrealdb.ts",
+  "version": "0.0.1",
+  "description": "typescript powered surrealdb library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "surrealdb",
+    "typescript"
+  ],
+  "author": "alhasandev",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
