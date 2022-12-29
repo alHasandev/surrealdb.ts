@@ -8,7 +8,7 @@ import { QueryBuilder } from "./builder"
 import { Query } from "./core/query"
 import { Obj } from "./core/data.types"
 import { safeValue } from "./core/helpers"
-import { InferQuery } from "./builder/reducers/types/exec"
+import { InferQuery } from "./types/exec"
 import { SurrealQuery } from "./query"
 
 export class Surreal<Schema extends SurrealSchema> {

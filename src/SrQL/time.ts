@@ -1,6 +1,6 @@
 import { formatRFC3339 } from "date-fns"
-import { safeValue } from "~/core/helpers"
-import { Query } from "~/core/query"
+import { safeValue } from "../core/helpers"
+import { Query } from "../core/query"
 import { createQueryFunc } from "./helpers"
 
 export type DurationUnit = "ns" | "ms" | "s" | "m" | "h" | "d" | "w"

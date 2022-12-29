@@ -1,6 +1,6 @@
-import { Group } from "~/builder/group"
-import { safeValue } from "~/core/helpers"
-import { Query } from "~/core/query"
+import { Group } from "../group"
+import { safeValue } from "../core/helpers"
+import { Query } from "../core/query"
 import { createQueryFunc, queryType } from "./helpers"
 import { Duration, Time } from "./time"
 

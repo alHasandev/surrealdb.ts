@@ -1,5 +1,5 @@
-import { safeValue } from "~/core/helpers"
-import { Query } from "~/core/query"
+import { safeValue } from "../core/helpers"
+import { Query } from "../core/query"
 
 export function createQueryFunc<TValue>(funcId: string, ...values: unknown[]) {
   const [value] = values

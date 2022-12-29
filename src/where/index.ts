@@ -1,7 +1,7 @@
-import { Obj } from "~/core/data.types"
-import { ComparisonOperator } from "~/operator.types"
-import { Query } from "~/core/query"
-import { safeValue } from "~/core/helpers"
+import { Obj } from "../core/data.types"
+import { ComparisonOperator } from "../operator.types"
+import { Query } from "../core/query"
+import { safeValue } from "../core/helpers"
 import { WhereValue } from "./types"
 
 export function whereToString(

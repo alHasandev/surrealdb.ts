@@ -1,7 +1,7 @@
-import { Where } from "~/builder/where"
-import { RecordData } from "~/core/data.types"
-import { Fetch } from "~/fetch.types"
-import { ComparisonOperator } from "~/operator.types"
+import { Where } from "../where"
+import { RecordData } from "../core/data.types"
+import { Fetch } from "../fetch.types"
+import { ComparisonOperator } from "../operator.types"
 import {
   FetchKeys,
   SerializeObjectKey,

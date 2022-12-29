@@ -1,4 +1,4 @@
-import { UnionToArray } from "~/core/utils.types"
+import { UnionToArray } from "../core/utils.types"
 import { Obj, RecordData } from "~/core/data.types"
 
 export type SerializeObjectKey<

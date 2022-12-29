@@ -1,10 +1,10 @@
-import { Where } from "~/builder/where"
-import { WhereValue } from "~/builder/where/types"
-import { safeValue } from "~/core/helpers"
-import { Query } from "~/core/query"
-import { UnionToArray } from "~/core/utils.types"
-import { Obj, RecordData } from "~/core/data.types"
-import { ComparisonOperator } from "~/operator.types"
+import { Where } from "../where"
+import { safeValue } from "../core/helpers"
+import { Query } from "../core/query"
+import type { WhereValue } from "../where/types"
+import type { UnionToArray } from "../core/utils.types"
+import type { Obj, RecordData } from "../core/data.types"
+import type { ComparisonOperator } from "../operator.types"
 
 type ObjectRef<
   TData extends Obj,

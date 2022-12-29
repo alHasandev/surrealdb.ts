@@ -1,9 +1,9 @@
-import { RecordData } from "~/core/data.types"
-import { ComparisonOperator } from "~/operator.types"
-import { Query } from "~/core/query"
+import { RecordData } from "../core/data.types"
+import { ComparisonOperator } from "../operator.types"
+import { Query } from "../core/query"
 import { Where } from "."
 import { Group } from "../group"
-import { Ref, RefProxy } from "~/ref"
+import { Ref, RefProxy } from "../ref"
 
 export interface WhereFunction<TData extends RecordData, RValue> {
   (

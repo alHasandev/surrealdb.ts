@@ -1,4 +1,4 @@
-import { Options } from "../options.types"
+import { Options } from "../builder/options.types"
 import { lastReducer } from "./last"
 import { whereReducer } from "./where"
 
